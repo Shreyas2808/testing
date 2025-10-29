@@ -1,0 +1,321 @@
+city,crop,season,soil_type,soil_ph,organic_carbon_pct,sand_pct,silt_pct,clay_pct,irrigation,fertilizer_used,fertilizer_type,N_req_kg_ha,P2O5_req_kg_ha,K2O_req_kg_ha,alt_crops,Type
+Vijayapura,Groundnut,Rabi,Sandy loam,7.2,0.83,68,15,17,Rainfed,Urea + SSP + MOP,Inorganic,18,42,20,Chickpea (Bengal gram); Blackgram (Urad); Greengram (Moong),Oilseed
+Raichur,Tomato,Kharif,Alluvial (coastal),7.2,1.04,42,42,16,Irrigated,Urea + SSP + MOP,Inorganic,150,69,72,Capsicum (Bell Pepper); Brinjal (Eggplant); Guava,Vegetable
+Chikkamagaluru,Maize,Kharif,Red loam,5.9,0.76,64,14,22,Irrigated,Urea + DAP + MOP,Inorganic,146,68,38,Tomato; Capsicum (Bell Pepper); Rice (Paddy); Brinjal (Eggplant),Cereal
+Shivamogga,Tomato,Kharif,Alluvial (coastal),6.4,0.84,35,53,12,Irrigated,Urea + DAP + MOP,Inorganic,163,68,77,Capsicum (Bell Pepper); Brinjal (Eggplant); Guava,Vegetable
+Mysuru,Potato,Kharif,Black clayey,8.0,0.77,13,39,48,Irrigated,Green manure (Sunnhemp) + FYM,Organic,195,83,121,Tomato (Hybrid High-Demand); Guava; Sugarcane,Vegetable
+Ramanagara,Chickpea (Bengal gram),Rabi,Red loam,6.1,1.07,52,31,17,Rainfed,CAN + DAP + MOP,Inorganic,19,50,19,Groundnut; French Beans; Green Peas,Pulse
+Bagalkote,Maize,Summer,Red loam,6.3,0.68,66,20,14,Rainfed,Vermicompost + Neem cake,Organic,158,72,41,Tomato; Capsicum (Bell Pepper); Rice (Paddy); Brinjal (Eggplant),Cereal
+Kodagu (Madikeri),Sesame,Rabi,Alluvial (coastal),6.7,1.13,36,43,21,Irrigated,CAN + DAP + MOP,Inorganic,26,24,0,Greengram (Moong); Blackgram (Urad); Pigeonpea (Tur),Oilseed
+Shivamogga,Cotton,Summer,Red sandy loam,6.6,0.82,63,25,12,Rainfed,FYM + Rock phosphate + Wood ash,Organic,84,47,44,Muskmelon; Sorghum (Jowar); Okra (Bhindi),Cash crop
+Bidar,Mustard,Rabi,Sandy loam,6.4,0.96,54,27,19,Irrigated,15-15-15 + Urea,Inorganic,79,36,37,Okra (Bhindi); Cotton; Pumpkin,Oilseed
+Hubballi-Dharwad,Onion,Rabi,Red sandy loam,6.5,0.59,48,42,10,Rainfed,Vermicompost + Neem cake,Organic,136,52,114,Amla (Indian Gooseberry); Papaya; Capsicum (Bell Pepper),Vegetable
+Mysuru,Maize,Summer,Alluvial (coastal),7.5,0.5,53,30,17,Irrigated,CAN + DAP + MOP,Inorganic,164,82,43,Tomato; Capsicum (Bell Pepper); Rice (Paddy); Brinjal (Eggplant),Cereal
+Kolar,Mustard,Rabi,Red loam,5.7,0.67,51,34,15,Rainfed,15-15-15 + Urea,Inorganic,77,40,42,Okra (Bhindi); Cotton; Pumpkin; Bottle Gourd,Oilseed
+Gadag,Maize,Kharif,Sandy loam,6.3,1.02,54,23,23,Irrigated,FYM + Urea (split) + MOP,Mixed,145,72,37,Tomato; Capsicum (Bell Pepper); Rice (Paddy),Cereal
+Davanagere,Pearl Millet (Bajra),Summer,Black clayey,7.3,1.1,24,26,50,Rainfed,Vermicompost + Neem cake,Organic,64,30,20,Ragi (Finger Millet); Coriander; Bottle Gourd; Ridge Gourd,Cereal
+Ballari,Chilli,Kharif,Lateritic,5.9,0.54,47,34,19,Irrigated,15-15-15 + Urea,Inorganic,114,57,58,Cauliflower; Cabbage; Brinjal (Eggplant),Vegetable
+Koppal,Soybean,Rabi,Lateritic,6.3,0.78,47,34,19,Irrigated,Urea + SSP + MOP,Inorganic,20,64,42,Green Peas; French Beans; Chickpea (Bengal gram),Oilseed
+Hassan,Pearl Millet (Bajra),Summer,Black clayey,8.1,0.81,17,24,59,Rainfed,FYM (Farmyard Manure),Organic,60,33,21,Ragi (Finger Millet); Coriander; Bottle Gourd,Cereal
+Gadag,Blackgram (Urad),Rabi,Sandy loam,6.5,1.06,51,28,21,Irrigated,12-32-16 + Urea + MOP,Inorganic,19,39,0,Greengram (Moong); Pigeonpea (Tur); Sesame; Groundnut,Pulse
+Mangaluru,Cotton,Kharif,Red sandy loam,6.9,0.84,68,21,11,Rainfed,Urea + DAP + MOP,Inorganic,98,42,43,Muskmelon; Sorghum (Jowar); Okra (Bhindi); Watermelon,Cash crop
+Uttara Kannada (Karwar),Tomato,Kharif,Black clayey,7.8,1.04,17,27,56,Irrigated,20-20-0 + Urea,Inorganic,148,68,78,Capsicum (Bell Pepper); Brinjal (Eggplant); Guava; Maize,Vegetable
+Bagalkote,Sorghum (Jowar),Summer,Alluvial (coastal),7.6,0.56,51,39,10,Irrigated,20-20-0 + Urea,Inorganic,110,48,37,Muskmelon; Cotton; Watermelon,Cereal
+Hassan,Potato,Rabi,Lateritic,6.2,1.16,45,31,24,Irrigated,Urea + SSP + MOP,Inorganic,178,94,128,Tomato (Hybrid High-Demand); Guava; Sugarcane; Amla (Indian Gooseberry),Vegetable
+Chikkaballapura,Pearl Millet (Bajra),Kharif,Red sandy loam,5.6,0.41,64,20,16,Rainfed,12-32-16 + Urea + MOP,Inorganic,58,31,20,Ragi (Finger Millet); Coriander; Bottle Gourd,Cereal
+Ballari,Sugarcane,Rabi,Alluvial (coastal),6.9,0.96,35,43,22,Irrigated,Urea + DAP + MOP,Inorganic,243,91,116,Potato; Tomato (Hybrid High-Demand); Sapota (Chikoo),Cash crop
+Bagalkote,Sugarcane,Rabi,Alluvial (coastal),7.7,1.19,44,35,21,Irrigated,12-32-16 + Urea + MOP,Inorganic,246,93,121,Potato; Tomato (Hybrid High-Demand); Sapota (Chikoo),Cash crop
+Belagavi,Sunflower,Rabi,Alluvial (coastal),6.8,1.02,49,31,20,Irrigated,Vermicompost + Neem cake,Organic,57,54,43,Bitter Gourd; Pumpkin; Ridge Gourd; Bottle Gourd,Oilseed
+Hubballi-Dharwad,Mustard,Rabi,Lateritic,6.0,0.62,50,26,24,Irrigated,15-15-15 + Urea,Inorganic,86,41,43,Okra (Bhindi); Cotton; Pumpkin,Oilseed
+Belagavi,Sugarcane,Summer,Black clayey,7.1,0.69,11,49,40,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,231,108,113,Potato; Tomato (Hybrid High-Demand); Sapota (Chikoo); Banana,Cash crop
+Bidar,Rice (Paddy),Kharif,Alluvial (coastal),6.6,0.99,49,29,22,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,118,56,40,Cabbage; Chilli; Cauliflower; Brinjal (Eggplant),Cereal
+Kodagu (Madikeri),Onion,Rabi,Sandy loam,5.9,1.13,53,33,14,Irrigated,Green manure (Sunnhemp) + FYM,Organic,117,47,121,Amla (Indian Gooseberry); Papaya; Capsicum (Bell Pepper),Vegetable
+Ballari,Sorghum (Jowar),Kharif,Alluvial (coastal),6.5,0.8,46,43,11,Irrigated,FYM + Urea (split) + MOP,Mixed,107,46,39,Muskmelon; Cotton; Watermelon; Rice (Paddy),Cereal
+Kolar,Pigeonpea (Tur),Kharif,Lateritic,6.8,0.45,40,45,15,Rainfed,12-32-16 + Urea + MOP,Inorganic,27,49,0,Blackgram (Urad); Greengram (Moong); Chickpea (Bengal gram); Groundnut,Pulse
+Raichur,Rice (Paddy),Kharif,Black clayey,8.0,0.97,12,35,53,Irrigated,12-32-16 + Urea + MOP,Inorganic,126,65,41,Cabbage; Chilli; Cauliflower,Cereal
+Hassan,Sorghum (Jowar),Rabi,Red loam,6.2,0.87,50,32,18,Rainfed,Urea + SSP + MOP,Inorganic,103,46,44,Muskmelon; Cotton; Watermelon; Rice (Paddy),Cereal
+Mandya,Pigeonpea (Tur),Rabi,Red sandy loam,6.8,0.55,67,22,11,Irrigated,FYM + Rock phosphate + Wood ash,Organic,23,55,0,Blackgram (Urad); Greengram (Moong); Chickpea (Bengal gram); Groundnut,Pulse
+Mandya,Sorghum (Jowar),Summer,Red loam,7.0,0.77,45,41,14,Rainfed,FYM (Farmyard Manure),Organic,96,47,41,Muskmelon; Cotton; Watermelon,Cereal
+Mandya,Cotton,Rabi,Sandy loam,6.6,0.8,52,33,15,Irrigated,Urea + SSP + MOP,Inorganic,89,41,47,Muskmelon; Sorghum (Jowar); Okra (Bhindi),Cash crop
+Hassan,Pearl Millet (Bajra),Summer,Red loam,6.0,0.43,62,27,11,Rainfed,20-20-0 + Urea,Inorganic,63,30,19,Ragi (Finger Millet); Coriander; Bottle Gourd,Cereal
+Bengaluru,Groundnut,Summer,Lateritic,5.7,0.47,35,47,18,Rainfed,FYM + Rock phosphate + Wood ash,Organic,20,44,19,Chickpea (Bengal gram); Blackgram (Urad); Greengram (Moong); Green Peas,Oilseed
+Haveri,Sorghum (Jowar),Kharif,Alluvial (coastal),6.4,0.63,46,43,11,Rainfed,Urea + DAP + MOP,Inorganic,103,48,38,Muskmelon; Cotton; Watermelon,Cereal
+Yadgir,Sugarcane,Summer,Sandy loam,6.8,0.85,47,35,18,Irrigated,12-32-16 + Urea + MOP,Inorganic,252,104,125,Potato; Tomato (Hybrid High-Demand); Sapota (Chikoo); Banana,Cash crop
+Bengaluru,Sunflower,Kharif,Black clayey,7.2,0.44,12,35,53,Rainfed,FYM + Rock phosphate + Wood ash,Organic,65,61,39,Bitter Gourd; Pumpkin; Ridge Gourd,Oilseed
+Tumakuru,Potato,Rabi,Red sandy loam,6.1,1.11,54,27,19,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,188,88,117,Tomato (Hybrid High-Demand); Guava; Sugarcane,Vegetable
+Hassan,Tomato,Summer,Lateritic,7.1,0.72,38,47,15,Rainfed,Green manure (Sunnhemp) + FYM,Organic,154,72,68,Capsicum (Bell Pepper); Brinjal (Eggplant); Guava; Maize,Vegetable
+Bidar,Onion,Kharif,Lateritic,6.8,0.51,49,34,17,Rainfed,20-20-0 + Urea,Inorganic,117,48,135,Amla (Indian Gooseberry); Papaya; Capsicum (Bell Pepper); Tomato,Vegetable
+Belagavi,Mustard,Rabi,Alluvial (coastal),7.2,0.61,53,27,20,Rainfed,CAN + DAP + MOP,Inorganic,87,40,36,Okra (Bhindi); Cotton; Pumpkin; Bottle Gourd,Oilseed
+Yadgir,Sugarcane,Summer,Red loam,7.2,0.95,69,11,20,Irrigated,15-15-15 + Urea,Inorganic,269,95,119,Potato; Tomato (Hybrid High-Demand); Sapota (Chikoo); Banana,Cash crop
+Kodagu (Madikeri),Sugarcane,Summer,Lateritic,6.2,1.13,51,38,11,Irrigated,Urea + SSP + MOP,Inorganic,235,91,128,Potato; Tomato (Hybrid High-Demand); Sapota (Chikoo),Cash crop
+Vijayapura,Chilli,Summer,Alluvial (coastal),6.1,1.08,52,28,20,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,114,62,57,Cauliflower; Cabbage; Brinjal (Eggplant),Vegetable
+Hassan,Onion,Summer,Lateritic,7.0,1.0,41,36,23,Irrigated,12-32-16 + Urea + MOP,Inorganic,128,55,125,Amla (Indian Gooseberry); Papaya; Capsicum (Bell Pepper),Vegetable
+Bagalkote,Pigeonpea (Tur),Rabi,Red sandy loam,6.3,0.67,67,11,22,Irrigated,Urea + SSP + MOP,Inorganic,23,52,0,Blackgram (Urad); Greengram (Moong); Chickpea (Bengal gram),Pulse
+Hassan,Sesame,Kharif,Sandy loam,6.8,0.56,62,28,10,Rainfed,FYM (Farmyard Manure),Organic,25,23,0,Greengram (Moong); Blackgram (Urad); Pigeonpea (Tur),Oilseed
+Kalaburagi,Chickpea (Bengal gram),Rabi,Red sandy loam,6.0,1.11,59,19,22,Irrigated,20-20-0 + Urea,Inorganic,20,46,19,Groundnut; French Beans; Green Peas,Pulse
+Belagavi,Greengram (Moong),Kharif,Sandy loam,6.5,0.92,52,27,21,Rainfed,FYM (Farmyard Manure),Organic,20,36,0,Blackgram (Urad); Pigeonpea (Tur); Sesame,Pulse
+Ballari,Soybean,Kharif,Sandy loam,6.6,0.99,66,18,16,Irrigated,Green manure (Sunnhemp) + FYM,Organic,21,60,40,Green Peas; French Beans; Chickpea (Bengal gram); Groundnut,Oilseed
+Vijayapura,Blackgram (Urad),Kharif,Black clayey,8.3,0.81,20,38,42,Irrigated,Urea + SSP + MOP,Inorganic,18,43,0,Greengram (Moong); Pigeonpea (Tur); Sesame; Groundnut,Pulse
+Bengaluru,Sesame,Summer,Lateritic,6.3,0.45,53,28,19,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,25,27,0,Greengram (Moong); Blackgram (Urad); Pigeonpea (Tur),Oilseed
+Udupi,Sesame,Summer,Alluvial (coastal),7.4,0.4,44,36,20,Irrigated,Green manure (Sunnhemp) + FYM,Organic,27,25,0,Greengram (Moong); Blackgram (Urad); Pigeonpea (Tur); Groundnut,Oilseed
+Hubballi-Dharwad,Soybean,Kharif,Red loam,7.0,0.73,58,31,11,Irrigated,15-15-15 + Urea,Inorganic,21,59,40,Green Peas; French Beans; Chickpea (Bengal gram); Groundnut,Oilseed
+Kodagu (Madikeri),Cotton,Rabi,Red sandy loam,5.6,0.57,46,40,14,Irrigated,FYM + Urea (split) + MOP,Mixed,98,44,48,Muskmelon; Sorghum (Jowar); Okra (Bhindi); Watermelon,Cash crop
+Udupi,Groundnut,Summer,Alluvial (coastal),6.5,0.78,49,27,24,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,21,44,18,Chickpea (Bengal gram); Blackgram (Urad); Greengram (Moong),Oilseed
+Mangaluru,Sunflower,Kharif,Sandy loam,6.1,1.19,69,15,16,Rainfed,FYM (Farmyard Manure),Organic,66,58,42,Bitter Gourd; Pumpkin; Ridge Gourd,Oilseed
+Tumakuru,Rice (Paddy),Summer,Red loam,6.0,1.14,56,29,15,Rainfed,FYM + Rock phosphate + Wood ash,Organic,123,60,42,Cabbage; Chilli; Cauliflower; Brinjal (Eggplant),Cereal
+Mangaluru,Sunflower,Kharif,Lateritic,6.9,0.79,35,45,20,Rainfed,CAN + DAP + MOP,Inorganic,61,57,39,Bitter Gourd; Pumpkin; Ridge Gourd; Bottle Gourd,Oilseed
+Tumakuru,Chilli,Kharif,Red loam,7.0,1.09,68,12,20,Irrigated,12-32-16 + Urea + MOP,Inorganic,116,59,66,Cauliflower; Cabbage; Brinjal (Eggplant),Vegetable
+Ballari,Sunflower,Kharif,Red sandy loam,7.1,1.19,51,32,17,Rainfed,15-15-15 + Urea,Inorganic,57,58,41,Bitter Gourd; Pumpkin; Ridge Gourd,Oilseed
+Bidar,Pigeonpea (Tur),Rabi,Lateritic,6.6,0.49,54,26,20,Rainfed,15-15-15 + Urea,Inorganic,24,47,0,Blackgram (Urad); Greengram (Moong); Chickpea (Bengal gram); Groundnut,Pulse
+Yadgir,Rice (Paddy),Rabi,Red loam,7.1,1.17,50,28,22,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,124,65,43,Cabbage; Chilli; Cauliflower; Brinjal (Eggplant),Cereal
+Bidar,Mustard,Rabi,Lateritic,6.3,1.16,48,28,24,Rainfed,FYM + Urea (split) + MOP,Mixed,73,43,38,Okra (Bhindi); Cotton; Pumpkin,Oilseed
+Haveri,Mustard,Rabi,Alluvial (coastal),6.4,0.66,54,29,17,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,82,39,39,Okra (Bhindi); Cotton; Pumpkin; Bottle Gourd,Oilseed
+Shivamogga,Sesame,Kharif,Sandy loam,5.9,0.95,54,22,24,Rainfed,FYM (Farmyard Manure),Organic,23,27,0,Greengram (Moong); Blackgram (Urad); Pigeonpea (Tur); Groundnut,Oilseed
+Mysuru,Groundnut,Kharif,Red loam,6.4,0.67,52,30,18,Irrigated,FYM (Farmyard Manure),Organic,18,38,20,Chickpea (Bengal gram); Blackgram (Urad); Greengram (Moong); Green Peas,Oilseed
+Mysuru,Maize,Summer,Lateritic,6.7,0.73,37,46,17,Irrigated,FYM + Rock phosphate + Wood ash,Organic,163,74,43,Tomato; Capsicum (Bell Pepper); Rice (Paddy); Brinjal (Eggplant),Cereal
+Gadag,Chickpea (Bengal gram),Rabi,Lateritic,7.0,1.09,46,34,20,Rainfed,20-20-0 + Urea,Inorganic,21,50,20,Groundnut; French Beans; Green Peas,Pulse
+Hassan,Rice (Paddy),Rabi,Black clayey,7.9,0.89,15,45,40,Irrigated,12-32-16 + Urea + MOP,Inorganic,112,63,39,Cabbage; Chilli; Cauliflower,Cereal
+Davanagere,Pigeonpea (Tur),Rabi,Red sandy loam,6.5,0.96,52,36,12,Rainfed,CAN + DAP + MOP,Inorganic,24,46,0,Blackgram (Urad); Greengram (Moong); Chickpea (Bengal gram),Pulse
+Mangaluru,Mustard,Rabi,Alluvial (coastal),7.7,1.12,53,25,22,Rainfed,12-32-16 + Urea + MOP,Inorganic,87,42,42,Okra (Bhindi); Cotton; Pumpkin; Bottle Gourd,Oilseed
+Mangaluru,Sunflower,Kharif,Red sandy loam,6.1,0.77,67,11,22,Irrigated,FYM + Rock phosphate + Wood ash,Organic,56,57,44,Bitter Gourd; Pumpkin; Ridge Gourd,Oilseed
+Udupi,Rice (Paddy),Rabi,Black clayey,8.2,0.49,21,25,54,Irrigated,Urea + SSP + MOP,Inorganic,115,61,42,Cabbage; Chilli; Cauliflower,Cereal
+Haveri,Chilli,Rabi,Black clayey,8.4,1.18,14,35,51,Irrigated,20-20-0 + Urea,Inorganic,122,66,56,Cauliflower; Cabbage; Brinjal (Eggplant); Rice (Paddy),Vegetable
+Koppal,Chilli,Summer,Red sandy loam,7.1,0.88,46,42,12,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,110,55,61,Cauliflower; Cabbage; Brinjal (Eggplant),Vegetable
+Koppal,Onion,Kharif,Alluvial (coastal),6.6,1.16,52,32,16,Rainfed,FYM + Urea (split) + MOP,Mixed,128,49,126,Amla (Indian Gooseberry); Papaya; Capsicum (Bell Pepper),Vegetable
+Mangaluru,Rice (Paddy),Kharif,Red sandy loam,6.1,0.49,49,27,24,Irrigated,Urea + SSP + MOP,Inorganic,130,61,43,Cabbage; Chilli; Cauliflower,Cereal
+Uttara Kannada (Karwar),Greengram (Moong),Summer,Red loam,7.1,0.83,45,38,17,Rainfed,FYM + Urea (split) + MOP,Mixed,20,39,0,Blackgram (Urad); Pigeonpea (Tur); Sesame; Groundnut,Pulse
+Mandya,Sunflower,Kharif,Lateritic,6.5,0.58,47,30,23,Rainfed,Vermicompost + DAP (basal) + Urea (topdress),Mixed,61,62,43,Bitter Gourd; Pumpkin; Ridge Gourd,Oilseed
+Haveri,Onion,Kharif,Sandy loam,6.1,1.0,64,16,20,Irrigated,Urea + SSP + MOP,Inorganic,119,50,118,Amla (Indian Gooseberry); Papaya; Capsicum (Bell Pepper),Vegetable
+Shivamogga,Pigeonpea (Tur),Kharif,Sandy loam,7.0,0.46,59,26,15,Irrigated,Vermicompost + Neem cake,Organic,24,54,0,Blackgram (Urad); Greengram (Moong); Chickpea (Bengal gram); Groundnut,Pulse
+Mangaluru,Mustard,Rabi,Red loam,6.8,0.41,69,20,11,Rainfed,Urea + SSP + MOP,Inorganic,75,43,43,Okra (Bhindi); Cotton; Pumpkin; Bottle Gourd,Oilseed
+Vijayapura,Sunflower,Summer,Sandy loam,7.0,0.75,57,29,14,Irrigated,FYM + Rock phosphate + Wood ash,Organic,56,55,38,Bitter Gourd; Pumpkin; Ridge Gourd; Bottle Gourd,Oilseed
+Bengaluru,Mustard,Rabi,Lateritic,6.4,0.6,48,31,21,Irrigated,FYM + Urea (split) + MOP,Mixed,74,38,36,Okra (Bhindi); Cotton; Pumpkin; Bottle Gourd,Oilseed
+Gadag,Pigeonpea (Tur),Summer,Lateritic,7.2,0.49,54,24,22,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,24,46,0,Blackgram (Urad); Greengram (Moong); Chickpea (Bengal gram),Pulse
+Hassan,Greengram (Moong),Rabi,Red loam,6.3,1.15,52,37,11,Rainfed,15-15-15 + Urea,Inorganic,20,44,0,Blackgram (Urad); Pigeonpea (Tur); Sesame,Pulse
+Mandya,Rice (Paddy),Rabi,Lateritic,6.7,1.05,42,38,20,Irrigated,Green manure (Sunnhemp) + FYM,Organic,110,59,36,Cabbage; Chilli; Cauliflower,Cereal
+Tumakuru,Pearl Millet (Bajra),Kharif,Red sandy loam,7.0,0.96,45,38,17,Rainfed,FYM + Rock phosphate + Wood ash,Organic,58,31,21,Ragi (Finger Millet); Coriander; Bottle Gourd; Ridge Gourd,Cereal
+Belagavi,Onion,Rabi,Black clayey,7.5,0.98,21,39,40,Irrigated,FYM + Urea (split) + MOP,Mixed,134,49,125,Amla (Indian Gooseberry); Papaya; Capsicum (Bell Pepper); Tomato,Vegetable
+Hubballi-Dharwad,Sorghum (Jowar),Kharif,Lateritic,6.2,1.11,39,42,19,Irrigated,FYM (Farmyard Manure),Organic,109,47,36,Muskmelon; Cotton; Watermelon,Cereal
+Ballari,Rice (Paddy),Rabi,Sandy loam,6.1,1.09,61,28,11,Irrigated,15-15-15 + Urea,Inorganic,114,61,37,Cabbage; Chilli; Cauliflower,Cereal
+Chikkamagaluru,Sorghum (Jowar),Rabi,Black clayey,7.7,0.61,19,32,49,Rainfed,CAN + DAP + MOP,Inorganic,96,53,44,Muskmelon; Cotton; Watermelon; Rice (Paddy),Cereal
+Vijayapura,Sesame,Rabi,Red loam,6.5,0.82,48,40,12,Rainfed,Vermicompost + DAP (basal) + Urea (topdress),Mixed,23,23,0,Greengram (Moong); Blackgram (Urad); Pigeonpea (Tur); Groundnut,Oilseed
+Koppal,Chickpea (Bengal gram),Rabi,Black clayey,7.4,1.07,15,45,40,Rainfed,FYM (Farmyard Manure),Organic,21,53,19,Groundnut; French Beans; Green Peas,Pulse
+Dakshina Kannada (Puttur),Tomato,Kharif,Black clayey,8.0,0.96,16,27,57,Irrigated,Urea + DAP + MOP,Inorganic,136,72,78,Capsicum (Bell Pepper); Brinjal (Eggplant); Guava,Vegetable
+Hubballi-Dharwad,Ragi (Finger Millet),Summer,Black clayey,8.0,0.57,23,27,50,Rainfed,12-32-16 + Urea + MOP,Inorganic,63,32,29,Coriander; Pearl Millet (Bajra); Bottle Gourd; Ridge Gourd,Cereal
+Chikkamagaluru,Onion,Rabi,Red sandy loam,5.9,0.4,59,22,19,Irrigated,Urea + DAP + MOP,Inorganic,124,46,137,Amla (Indian Gooseberry); Papaya; Capsicum (Bell Pepper); Tomato,Vegetable
+Bagalkote,Potato,Kharif,Sandy loam,6.4,0.65,62,15,23,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,189,94,123,Tomato (Hybrid High-Demand); Guava; Sugarcane; Amla (Indian Gooseberry),Vegetable
+Hassan,Chilli,Kharif,Sandy loam,5.8,0.68,65,11,24,Irrigated,Urea + DAP + MOP,Inorganic,131,63,54,Cauliflower; Cabbage; Brinjal (Eggplant),Vegetable
+Ballari,Mustard,Rabi,Black clayey,7.8,0.81,23,20,57,Irrigated,15-15-15 + Urea,Inorganic,72,37,38,Okra (Bhindi); Cotton; Pumpkin,Oilseed
+Koppal,Sunflower,Rabi,Sandy loam,6.6,0.5,58,31,11,Rainfed,15-15-15 + Urea,Inorganic,56,59,36,Bitter Gourd; Pumpkin; Ridge Gourd,Oilseed
+Bagalkote,Pearl Millet (Bajra),Kharif,Red sandy loam,6.4,0.86,62,22,16,Rainfed,Urea + SSP + MOP,Inorganic,56,33,21,Ragi (Finger Millet); Coriander; Bottle Gourd; Ridge Gourd,Cereal
+Bidar,Mustard,Rabi,Lateritic,5.6,0.96,39,42,19,Irrigated,Vermicompost + Neem cake,Organic,73,41,42,Okra (Bhindi); Cotton; Pumpkin,Oilseed
+Belagavi,Potato,Kharif,Red sandy loam,6.4,0.99,53,27,20,Irrigated,CAN + DAP + MOP,Inorganic,192,99,128,Tomato (Hybrid High-Demand); Guava; Sugarcane; Amla (Indian Gooseberry),Vegetable
+Vijayapura,Soybean,Rabi,Black clayey,8.2,1.0,16,35,49,Rainfed,Urea + DAP + MOP,Inorganic,21,60,37,Green Peas; French Beans; Chickpea (Bengal gram),Oilseed
+Udupi,Blackgram (Urad),Summer,Alluvial (coastal),7.7,1.14,39,45,16,Rainfed,FYM (Farmyard Manure),Organic,22,42,0,Greengram (Moong); Pigeonpea (Tur); Sesame; Groundnut,Pulse
+Vijayapura,Ragi (Finger Millet),Rabi,Black clayey,7.2,0.71,15,43,42,Irrigated,20-20-0 + Urea,Inorganic,57,29,28,Coriander; Pearl Millet (Bajra); Bottle Gourd; Ridge Gourd,Cereal
+Mangaluru,Sunflower,Kharif,Lateritic,7.1,0.64,49,27,24,Irrigated,FYM + Urea (split) + MOP,Mixed,55,58,41,Bitter Gourd; Pumpkin; Ridge Gourd,Oilseed
+Chikkamagaluru,Chickpea (Bengal gram),Rabi,Red sandy loam,7.0,0.55,61,23,16,Rainfed,FYM (Farmyard Manure),Organic,19,50,19,Groundnut; French Beans; Green Peas; Pigeonpea (Tur),Pulse
+Ramanagara,Mustard,Rabi,Red loam,6.6,0.83,55,32,13,Irrigated,Green manure (Sunnhemp) + FYM,Organic,77,37,43,Okra (Bhindi); Cotton; Pumpkin; Bottle Gourd,Oilseed
+Hassan,Soybean,Kharif,Red sandy loam,6.8,0.8,58,24,18,Rainfed,20-20-0 + Urea,Inorganic,20,62,36,Green Peas; French Beans; Chickpea (Bengal gram),Oilseed
+Uttara Kannada (Karwar),Greengram (Moong),Kharif,Alluvial (coastal),7.3,1.02,42,40,18,Rainfed,Urea + DAP + MOP,Inorganic,18,42,0,Blackgram (Urad); Pigeonpea (Tur); Sesame,Pulse
+Shivamogga,Tomato,Kharif,Sandy loam,6.3,0.61,55,21,24,Rainfed,FYM + Urea (split) + MOP,Mixed,151,76,81,Capsicum (Bell Pepper); Brinjal (Eggplant); Guava; Maize,Vegetable
+Kodagu (Madikeri),Tomato (Hybrid High-Demand),Summer,Lateritic,6.2,0.79,48,30,22,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,168,81,89,Guava; Potato; Tomato; Capsicum (Bell Pepper),Vegetable
+Chikkaballapura,Capsicum (Bell Pepper),Summer,Lateritic,6.7,0.49,47,30,23,Irrigated,15-15-15 + Urea,Inorganic,135,75,82,Tomato; Brinjal (Eggplant); Cauliflower,Vegetable
+Bengaluru,Carrot,Rabi,Red sandy loam,7.1,1.19,69,13,18,Irrigated,15-15-15 + Urea,Inorganic,86,64,56,Cucumber; Beetroot; Muskmelon,Vegetable
+Mysuru,Cabbage,Rabi,Sandy loam,5.8,0.56,68,11,21,Rainfed,12-32-16 + Urea + MOP,Inorganic,127,54,65,Cauliflower; Chilli; Brinjal (Eggplant),Vegetable
+Vijayapura,Spinach,Kharif,Red loam,6.3,0.72,68,22,10,Irrigated,Vermicompost + Neem cake,Organic,54,37,42,Ridge Gourd; Bottle Gourd; Pumpkin; Coriander,Vegetable
+Udupi,Carrot,Rabi,Lateritic,6.3,0.94,36,54,10,Irrigated,Vermicompost + Neem cake,Organic,86,63,61,Cucumber; Beetroot; Muskmelon,Vegetable
+Raichur,Jackfruit,Rabi,Red loam,5.6,0.66,66,14,20,Irrigated,15-15-15 + Urea,Inorganic,199,99,196,Banana; Sapota (Chikoo); Pomegranate; Potato,Fruit
+Kalaburagi,Coriander,Kharif,Sandy loam,6.8,0.85,45,33,22,Irrigated,Vermicompost + Neem cake,Organic,55,29,32,Ragi (Finger Millet); Bottle Gourd; Pearl Millet (Bajra),Vegetable
+Bagalkote,Papaya,Kharif,Lateritic,6.7,0.45,43,44,13,Irrigated,FYM (Farmyard Manure),Organic,153,49,140,Amla (Indian Gooseberry); Onion; Potato; Guava,Fruit
+Hubballi-Dharwad,Papaya,Kharif,Red sandy loam,6.7,1.15,68,16,16,Irrigated,Vermicompost + Neem cake,Organic,136,53,144,Amla (Indian Gooseberry); Onion; Potato; Guava,Fruit
+Kolar,Cabbage,Summer,Lateritic,6.6,1.17,45,44,11,Irrigated,12-32-16 + Urea + MOP,Inorganic,118,58,64,Cauliflower; Chilli; Brinjal (Eggplant); Rice (Paddy),Vegetable
+Udupi,Bottle Gourd,Rabi,Black clayey,7.9,0.69,11,46,43,Irrigated,FYM + Urea (split) + MOP,Mixed,58,42,44,Ridge Gourd; Pumpkin; Spinach; Coriander,Vegetable
+Kalaburagi,Green Peas,Kharif,Red sandy loam,6.3,0.9,50,29,21,Irrigated,FYM (Farmyard Manure),Organic,25,55,27,French Beans; Soybean; Chickpea (Bengal gram); Groundnut,Vegetable
+Ballari,Carrot,Rabi,Red sandy loam,6.8,1.07,61,24,15,Rainfed,Vermicompost + DAP (basal) + Urea (topdress),Mixed,84,59,58,Cucumber; Beetroot; Muskmelon,Vegetable
+Tumakuru,Green Peas,Kharif,Lateritic,6.8,0.67,52,37,11,Rainfed,Vermicompost + DAP (basal) + Urea (topdress),Mixed,26,65,31,French Beans; Soybean; Chickpea (Bengal gram); Groundnut,Vegetable
+Chikkamagaluru,Mango,Rabi,Red loam,6.5,0.65,63,27,10,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,247,48,253,Sapota (Chikoo); Jackfruit; Banana,Fruit
+Ballari,Pomegranate,Rabi,Black clayey,7.2,0.68,19,23,58,Irrigated,12-32-16 + Urea + MOP,Inorganic,236,160,192,Sapota (Chikoo); Banana; Jackfruit; Sugarcane,Fruit
+Vijayapura,Jackfruit,Rabi,Red loam,6.0,0.93,55,25,20,Irrigated,Vermicompost + Neem cake,Organic,187,93,183,Banana; Sapota (Chikoo); Pomegranate; Potato,Fruit
+Bagalkote,Cucumber,Rabi,Black clayey,7.6,0.63,18,25,57,Rainfed,12-32-16 + Urea + MOP,Inorganic,82,64,60,Carrot; Beetroot; Watermelon,Vegetable
+Vijayapura,Okra (Bhindi),Kharif,Lateritic,6.6,0.76,44,36,20,Irrigated,Vermicompost + Neem cake,Organic,80,43,42,Mustard; Cotton; Pumpkin,Vegetable
+Dakshina Kannada (Puttur),Ridge Gourd,Summer,Red sandy loam,7.1,0.73,49,36,15,Rainfed,15-15-15 + Urea,Inorganic,61,44,43,Bottle Gourd; Pumpkin; Spinach; Coriander,Vegetable
+Ramanagara,Cabbage,Rabi,Alluvial (coastal),6.3,0.94,37,53,10,Irrigated,FYM (Farmyard Manure),Organic,126,58,57,Cauliflower; Chilli; Brinjal (Eggplant); Rice (Paddy),Vegetable
+Bengaluru,Banana,Rabi,Red sandy loam,6.4,0.8,67,20,13,Irrigated,15-15-15 + Urea,Inorganic,200,103,186,Jackfruit; Sapota (Chikoo); Pomegranate; Potato,Fruit
+Davanagere,Cauliflower,Summer,Lateritic,6.1,0.44,46,37,17,Irrigated,Vermicompost + Neem cake,Organic,111,56,65,Cabbage; Chilli; Brinjal (Eggplant),Vegetable
+Bidar,Watermelon,Rabi,Alluvial (coastal),7.2,0.74,42,36,22,Rainfed,FYM + Urea (split) + MOP,Mixed,101,52,51,Muskmelon; Cotton; Sorghum (Jowar),Fruit
+Chikkamagaluru,French Beans,Kharif,Red loam,7.2,1.01,64,19,17,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,27,54,29,Green Peas; Soybean; Chickpea (Bengal gram); Groundnut,Vegetable
+Ballari,Banana,Rabi,Black clayey,7.1,0.89,24,33,43,Irrigated,12-32-16 + Urea + MOP,Inorganic,198,100,217,Jackfruit; Sapota (Chikoo); Pomegranate; Potato,Fruit
+Belagavi,Brinjal (Eggplant),Kharif,Lateritic,5.6,1.07,40,49,11,Rainfed,12-32-16 + Urea + MOP,Inorganic,116,62,65,Cauliflower; Cabbage; Chilli,Vegetable
+Bagalkote,Beetroot,Rabi,Sandy loam,6.9,0.55,57,33,10,Irrigated,FYM (Farmyard Manure),Organic,82,65,62,Cucumber; Carrot; Watermelon; Muskmelon,Vegetable
+Mysuru,Bitter Gourd,Kharif,Lateritic,5.8,0.64,44,36,20,Irrigated,FYM + Urea (split) + MOP,Mixed,56,55,48,Sunflower; Pumpkin; Ridge Gourd,Vegetable
+Bidar,Papaya,Rabi,Alluvial (coastal),6.6,0.64,35,46,19,Irrigated,FYM + Urea (split) + MOP,Mixed,155,47,158,Amla (Indian Gooseberry); Onion; Potato; Guava,Fruit
+Tumakuru,French Beans,Summer,Red sandy loam,6.7,0.85,58,28,14,Irrigated,FYM + Urea (split) + MOP,Mixed,27,59,27,Green Peas; Soybean; Chickpea (Bengal gram),Vegetable
+Ramanagara,Beetroot,Kharif,Lateritic,7.0,0.68,44,42,14,Rainfed,Vermicompost + DAP (basal) + Urea (topdress),Mixed,92,61,65,Cucumber; Carrot; Watermelon,Vegetable
+Mysuru,Bottle Gourd,Rabi,Lateritic,6.8,1.12,50,36,14,Irrigated,12-32-16 + Urea + MOP,Inorganic,56,38,42,Ridge Gourd; Pumpkin; Spinach; Coriander,Vegetable
+Belagavi,Papaya,Kharif,Black clayey,8.4,0.58,16,26,58,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,151,46,154,Amla (Indian Gooseberry); Onion; Potato,Fruit
+Hubballi-Dharwad,French Beans,Summer,Alluvial (coastal),6.7,0.93,41,47,12,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,28,60,30,Green Peas; Soybean; Chickpea (Bengal gram),Vegetable
+Koppal,Green Peas,Summer,Red loam,6.3,0.42,55,21,24,Irrigated,FYM (Farmyard Manure),Organic,25,55,29,French Beans; Soybean; Chickpea (Bengal gram),Vegetable
+Bagalkote,Watermelon,Summer,Red loam,6.8,0.75,64,14,22,Irrigated,12-32-16 + Urea + MOP,Inorganic,95,55,54,Muskmelon; Cotton; Sorghum (Jowar),Fruit
+Davanagere,Mango,Rabi,Red sandy loam,6.2,0.6,69,20,11,Rainfed,12-32-16 + Urea + MOP,Inorganic,272,48,255,Sapota (Chikoo); Jackfruit; Banana; Pomegranate,Fruit
+Udupi,Amla (Indian Gooseberry),Summer,Lateritic,6.9,1.17,44,42,14,Irrigated,Vermicompost + Neem cake,Organic,145,51,144,Papaya; Onion; Potato; Guava,Fruit
+Hubballi-Dharwad,Bottle Gourd,Rabi,Red sandy loam,6.1,1.12,59,30,11,Rainfed,Vermicompost + Neem cake,Organic,59,41,40,Ridge Gourd; Pumpkin; Spinach; Coriander,Vegetable
+Dakshina Kannada (Puttur),Okra (Bhindi),Rabi,Red sandy loam,7.1,1.05,52,30,18,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,80,44,41,Mustard; Cotton; Pumpkin,Vegetable
+Vijayapura,Tomato (Hybrid High-Demand),Kharif,Sandy loam,6.5,1.18,67,14,19,Irrigated,FYM (Farmyard Manure),Organic,196,96,99,Guava; Potato; Tomato; Capsicum (Bell Pepper),Vegetable
+Vijayapura,Sapota (Chikoo),Rabi,Lateritic,7.2,0.54,43,45,12,Irrigated,Vermicompost + Neem cake,Organic,234,92,193,Banana; Jackfruit; Pomegranate; Sugarcane,Fruit
+Hubballi-Dharwad,Bitter Gourd,Summer,Lateritic,5.9,0.46,40,47,13,Irrigated,FYM + Urea (split) + MOP,Mixed,57,52,53,Sunflower; Pumpkin; Ridge Gourd; Spinach,Vegetable
+Vijayapura,Banana,Kharif,Sandy loam,5.7,0.92,67,17,16,Irrigated,15-15-15 + Urea,Inorganic,195,101,215,Jackfruit; Sapota (Chikoo); Pomegranate,Fruit
+Mangaluru,Brinjal (Eggplant),Rabi,Sandy loam,6.6,0.62,60,25,15,Rainfed,15-15-15 + Urea,Inorganic,124,55,55,Cauliflower; Cabbage; Chilli; Rice (Paddy),Vegetable
+Hubballi-Dharwad,Carrot,Kharif,Red loam,5.7,0.45,55,31,14,Irrigated,Vermicompost + Neem cake,Organic,76,62,55,Cucumber; Beetroot; Muskmelon; Watermelon,Vegetable
+Uttara Kannada (Karwar),Banana,Kharif,Lateritic,5.6,0.62,52,35,13,Irrigated,FYM (Farmyard Manure),Organic,207,106,198,Jackfruit; Sapota (Chikoo); Pomegranate,Fruit
+Belagavi,Bottle Gourd,Kharif,Red sandy loam,6.8,0.76,63,23,14,Irrigated,Vermicompost + Neem cake,Organic,65,44,36,Ridge Gourd; Pumpkin; Spinach; Coriander,Vegetable
+Udupi,Beetroot,Summer,Sandy loam,6.5,0.41,52,37,11,Irrigated,Vermicompost + Neem cake,Organic,95,62,59,Cucumber; Carrot; Watermelon,Vegetable
+Udupi,Brinjal (Eggplant),Summer,Sandy loam,6.9,0.63,59,31,10,Rainfed,Vermicompost + DAP (basal) + Urea (topdress),Mixed,119,65,63,Cauliflower; Cabbage; Chilli,Vegetable
+Belagavi,Cauliflower,Summer,Lateritic,5.8,0.62,54,29,17,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,117,62,64,Cabbage; Chilli; Brinjal (Eggplant),Vegetable
+Raichur,Mango,Rabi,Lateritic,6.1,1.17,41,45,14,Irrigated,Vermicompost + Neem cake,Organic,247,46,256,Sapota (Chikoo); Jackfruit; Banana,Fruit
+Tumakuru,Tomato (Hybrid High-Demand),Summer,Sandy loam,6.2,0.91,45,40,15,Irrigated,FYM (Farmyard Manure),Organic,177,91,99,Guava; Potato; Tomato,Vegetable
+Dakshina Kannada (Puttur),Cabbage,Kharif,Black clayey,7.9,1.16,22,24,54,Irrigated,FYM + Urea (split) + MOP,Mixed,112,59,54,Cauliflower; Chilli; Brinjal (Eggplant),Vegetable
+Shivamogga,Tomato (Hybrid High-Demand),Kharif,Black clayey,7.3,1.06,12,32,56,Irrigated,12-32-16 + Urea + MOP,Inorganic,178,92,89,Guava; Potato; Tomato; Capsicum (Bell Pepper),Vegetable
+Ballari,Carrot,Rabi,Alluvial (coastal),6.3,1.09,54,25,21,Irrigated,FYM + Urea (split) + MOP,Mixed,81,62,64,Cucumber; Beetroot; Muskmelon; Watermelon,Vegetable
+Bagalkote,Grapes,Rabi,Red loam,6.6,0.49,58,29,13,Irrigated,Vermicompost + Neem cake,Organic,409,192,408,Mango; Pomegranate; Sapota (Chikoo); Banana,Fruit
+Ramanagara,Capsicum (Bell Pepper),Kharif,Lateritic,5.6,0.72,54,26,20,Irrigated,Vermicompost + Neem cake,Organic,149,82,76,Tomato; Brinjal (Eggplant); Cauliflower; Cabbage,Vegetable
+Kolar,Okra (Bhindi),Summer,Red loam,6.4,0.95,64,15,21,Irrigated,12-32-16 + Urea + MOP,Inorganic,78,37,41,Mustard; Cotton; Pumpkin,Vegetable
+Vijayapura,French Beans,Summer,Sandy loam,5.6,1.02,69,8,23,Irrigated,12-32-16 + Urea + MOP,Inorganic,31,57,32,Green Peas; Soybean; Chickpea (Bengal gram); Groundnut,Vegetable
+Gadag,Bottle Gourd,Rabi,Alluvial (coastal),7.1,0.87,39,46,15,Irrigated,Vermicompost + Neem cake,Organic,57,36,37,Ridge Gourd; Pumpkin; Spinach; Coriander,Vegetable
+Mangaluru,Beetroot,Kharif,Lateritic,7.0,0.78,38,52,10,Irrigated,12-32-16 + Urea + MOP,Inorganic,93,57,56,Cucumber; Carrot; Watermelon; Muskmelon,Vegetable
+Mysuru,Cabbage,Kharif,Alluvial (coastal),7.6,0.43,46,33,21,Irrigated,12-32-16 + Urea + MOP,Inorganic,118,58,56,Cauliflower; Chilli; Brinjal (Eggplant); Rice (Paddy),Vegetable
+Kolar,Papaya,Kharif,Red loam,6.8,0.76,60,27,13,Irrigated,12-32-16 + Urea + MOP,Inorganic,161,46,160,Amla (Indian Gooseberry); Onion; Potato,Fruit
+Kalaburagi,Capsicum (Bell Pepper),Rabi,Black clayey,7.3,0.72,11,36,53,Irrigated,Vermicompost + Neem cake,Organic,140,82,77,Tomato; Brinjal (Eggplant); Cauliflower,Vegetable
+Kolar,Pomegranate,Rabi,Lateritic,6.3,0.81,53,31,16,Irrigated,FYM (Farmyard Manure),Organic,255,153,184,Sapota (Chikoo); Banana; Jackfruit; Sugarcane,Fruit
+Kalaburagi,Cucumber,Kharif,Black clayey,7.3,0.62,11,41,48,Irrigated,FYM (Farmyard Manure),Organic,86,61,64,Carrot; Beetroot; Watermelon; Muskmelon,Vegetable
+Chikkamagaluru,Pomegranate,Kharif,Sandy loam,5.9,0.96,48,38,14,Irrigated,15-15-15 + Urea,Inorganic,226,146,205,Sapota (Chikoo); Banana; Jackfruit; Sugarcane,Fruit
+Dakshina Kannada (Puttur),Cucumber,Rabi,Red loam,6.2,0.91,55,33,12,Irrigated,12-32-16 + Urea + MOP,Inorganic,84,62,66,Carrot; Beetroot; Watermelon,Vegetable
+Yadgir,Spinach,Summer,Black clayey,7.4,1.06,16,28,56,Irrigated,FYM (Farmyard Manure),Organic,55,43,43,Ridge Gourd; Bottle Gourd; Pumpkin; Coriander,Vegetable
+Raichur,Cauliflower,Summer,Alluvial (coastal),7.4,1.12,41,35,24,Irrigated,Vermicompost + Neem cake,Organic,130,63,57,Cabbage; Chilli; Brinjal (Eggplant); Rice (Paddy),Vegetable
+Koppal,Grapes,Kharif,Red sandy loam,6.4,0.4,58,20,22,Irrigated,15-15-15 + Urea,Inorganic,438,199,385,Mango; Pomegranate; Sapota (Chikoo),Fruit
+Chikkaballapura,Amla (Indian Gooseberry),Summer,Black clayey,7.4,0.69,10,38,52,Rainfed,Vermicompost + Neem cake,Organic,152,49,139,Papaya; Onion; Potato,Fruit
+Bengaluru,Pomegranate,Kharif,Sandy loam,6.1,1.07,50,26,24,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,237,149,218,Sapota (Chikoo); Banana; Jackfruit; Sugarcane,Fruit
+Kalaburagi,Ridge Gourd,Rabi,Alluvial (coastal),6.5,1.16,36,48,16,Rainfed,Vermicompost + Neem cake,Organic,56,39,40,Bottle Gourd; Pumpkin; Spinach; Coriander,Vegetable
+Raichur,Bottle Gourd,Kharif,Red loam,5.6,0.57,67,22,11,Irrigated,15-15-15 + Urea,Inorganic,59,37,37,Ridge Gourd; Pumpkin; Spinach; Coriander,Vegetable
+Vijayapura,Brinjal (Eggplant),Kharif,Sandy loam,6.6,1.04,56,27,17,Irrigated,FYM + Urea (split) + MOP,Mixed,127,64,56,Cauliflower; Cabbage; Chilli,Vegetable
+Uttara Kannada (Karwar),Papaya,Kharif,Red loam,5.7,0.51,66,21,13,Irrigated,FYM (Farmyard Manure),Organic,136,50,139,Amla (Indian Gooseberry); Onion; Potato,Fruit
+Bidar,Grapes,Kharif,Red sandy loam,5.8,1.05,59,19,22,Irrigated,Vermicompost + Neem cake,Organic,403,218,362,Mango; Pomegranate; Sapota (Chikoo),Fruit
+Gadag,Bottle Gourd,Kharif,Alluvial (coastal),7.2,0.86,49,37,14,Irrigated,15-15-15 + Urea,Inorganic,57,38,39,Ridge Gourd; Pumpkin; Spinach,Vegetable
+Belagavi,Green Peas,Kharif,Black clayey,7.5,0.43,19,28,53,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,26,54,28,French Beans; Soybean; Chickpea (Bengal gram); Groundnut,Vegetable
+Kalaburagi,Grapes,Rabi,Red loam,6.3,0.97,58,27,15,Irrigated,15-15-15 + Urea,Inorganic,411,211,371,Mango; Pomegranate; Sapota (Chikoo),Fruit
+Yadgir,Grapes,Rabi,Lateritic,5.9,0.97,38,47,15,Irrigated,FYM + Urea (split) + MOP,Mixed,420,214,437,Mango; Pomegranate; Sapota (Chikoo); Banana,Fruit
+Hubballi-Dharwad,Grapes,Kharif,Red loam,6.3,0.77,56,32,12,Irrigated,12-32-16 + Urea + MOP,Inorganic,362,214,387,Mango; Pomegranate; Sapota (Chikoo),Fruit
+Hassan,Papaya,Rabi,Alluvial (coastal),7.1,0.84,45,34,21,Irrigated,12-32-16 + Urea + MOP,Inorganic,143,47,143,Amla (Indian Gooseberry); Onion; Potato,Fruit
+Koppal,Okra (Bhindi),Rabi,Black clayey,7.2,0.72,13,31,56,Irrigated,FYM (Farmyard Manure),Organic,83,37,38,Mustard; Cotton; Pumpkin; Muskmelon,Vegetable
+Vijayapura,Cabbage,Kharif,Black clayey,8.5,0.78,12,45,43,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,126,62,59,Cauliflower; Chilli; Brinjal (Eggplant),Vegetable
+Hubballi-Dharwad,Grapes,Kharif,Red loam,6.8,0.51,60,23,17,Irrigated,FYM + Urea (split) + MOP,Mixed,431,201,391,Mango; Pomegranate; Sapota (Chikoo); Banana,Fruit
+Kolar,Guava,Rabi,Sandy loam,6.1,0.88,45,35,20,Rainfed,Vermicompost + Neem cake,Organic,151,98,100,Tomato (Hybrid High-Demand); Capsicum (Bell Pepper); Tomato,Fruit
+Ramanagara,Jackfruit,Rabi,Red sandy loam,6.1,0.62,52,35,13,Rainfed,12-32-16 + Urea + MOP,Inorganic,190,99,216,Banana; Sapota (Chikoo); Pomegranate; Potato,Fruit
+Hubballi-Dharwad,Spinach,Rabi,Sandy loam,7.1,0.59,60,23,17,Irrigated,FYM (Farmyard Manure),Organic,51,40,44,Ridge Gourd; Bottle Gourd; Pumpkin,Vegetable
+Mangaluru,Mango,Kharif,Sandy loam,6.7,0.73,69,16,15,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,265,54,234,Sapota (Chikoo); Jackfruit; Banana; Pomegranate,Fruit
+Koppal,Banana,Rabi,Red loam,5.6,0.82,51,25,24,Irrigated,FYM (Farmyard Manure),Organic,184,105,199,Jackfruit; Sapota (Chikoo); Pomegranate,Fruit
+Davanagere,Muskmelon,Rabi,Alluvial (coastal),7.7,0.69,52,38,10,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,96,53,47,Cotton; Watermelon; Sorghum (Jowar); Beetroot,Fruit
+Raichur,Carrot,Summer,Red loam,5.8,1.17,53,30,17,Irrigated,15-15-15 + Urea,Inorganic,84,56,58,Cucumber; Beetroot; Muskmelon; Watermelon,Vegetable
+Hubballi-Dharwad,Sapota (Chikoo),Rabi,Red sandy loam,7.0,1.15,50,34,16,Rainfed,Vermicompost + DAP (basal) + Urea (topdress),Mixed,260,109,219,Banana; Jackfruit; Pomegranate,Fruit
+Kalaburagi,Jackfruit,Summer,Lateritic,6.7,0.95,50,29,21,Irrigated,FYM + Urea (split) + MOP,Mixed,204,106,219,Banana; Sapota (Chikoo); Pomegranate; Potato,Fruit
+Kolar,Bitter Gourd,Rabi,Alluvial (coastal),6.6,0.93,52,28,20,Irrigated,FYM (Farmyard Manure),Organic,55,48,47,Sunflower; Pumpkin; Ridge Gourd; Spinach,Vegetable
+Udupi,Watermelon,Summer,Red loam,6.4,0.66,54,30,16,Irrigated,15-15-15 + Urea,Inorganic,108,50,53,Muskmelon; Cotton; Sorghum (Jowar); Beetroot,Fruit
+Ballari,Amla (Indian Gooseberry),Summer,Lateritic,6.4,0.72,52,31,17,Irrigated,15-15-15 + Urea,Inorganic,141,54,153,Papaya; Onion; Potato; Guava,Fruit
+Belagavi,Capsicum (Bell Pepper),Kharif,Lateritic,6.2,0.56,46,31,23,Irrigated,15-15-15 + Urea,Inorganic,136,78,81,Tomato; Brinjal (Eggplant); Cauliflower; Cabbage,Vegetable
+Davanagere,Green Peas,Kharif,Red loam,6.8,1.14,60,22,18,Irrigated,15-15-15 + Urea,Inorganic,23,58,32,French Beans; Soybean; Chickpea (Bengal gram); Groundnut,Vegetable
+Bidar,Ridge Gourd,Kharif,Alluvial (coastal),7.4,0.9,53,36,11,Rainfed,12-32-16 + Urea + MOP,Inorganic,55,38,36,Bottle Gourd; Pumpkin; Spinach,Vegetable
+Kodagu (Madikeri),Guava,Kharif,Black clayey,7.0,1.14,17,39,44,Irrigated,FYM (Farmyard Manure),Organic,158,91,96,Tomato (Hybrid High-Demand); Capsicum (Bell Pepper); Tomato,Fruit
+Kodagu (Madikeri),Pomegranate,Rabi,Lateritic,5.6,0.44,50,38,12,Irrigated,FYM + Urea (split) + MOP,Mixed,242,136,189,Sapota (Chikoo); Banana; Jackfruit; Sugarcane,Fruit
+Gadag,French Beans,Kharif,Red sandy loam,6.2,0.98,54,33,13,Irrigated,12-32-16 + Urea + MOP,Inorganic,31,57,29,Green Peas; Soybean; Chickpea (Bengal gram),Vegetable
+Uttara Kannada (Karwar),Spinach,Summer,Black clayey,7.2,0.46,19,35,46,Irrigated,12-32-16 + Urea + MOP,Inorganic,48,37,37,Ridge Gourd; Bottle Gourd; Pumpkin; Coriander,Vegetable
+Raichur,Muskmelon,Kharif,Red sandy loam,6.6,0.8,53,33,14,Rainfed,15-15-15 + Urea,Inorganic,93,50,52,Cotton; Watermelon; Sorghum (Jowar),Fruit
+Raichur,Banana,Rabi,Black clayey,7.4,0.49,21,24,55,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,210,102,187,Jackfruit; Sapota (Chikoo); Pomegranate; Potato,Fruit
+Mysuru,Banana,Kharif,Alluvial (coastal),7.2,0.68,52,31,17,Irrigated,FYM + Urea (split) + MOP,Mixed,185,90,216,Jackfruit; Sapota (Chikoo); Pomegranate,Fruit
+Udupi,Papaya,Kharif,Alluvial (coastal),6.7,1.13,42,45,13,Irrigated,Vermicompost + Neem cake,Organic,150,52,144,Amla (Indian Gooseberry); Onion; Potato,Fruit
+Kolar,Beetroot,Rabi,Red sandy loam,6.1,0.87,58,23,19,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,85,62,61,Cucumber; Carrot; Watermelon; Muskmelon,Vegetable
+Vijayapura,Tomato (Hybrid High-Demand),Kharif,Red loam,7.0,1.09,59,20,21,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,175,95,85,Guava; Potato; Tomato; Capsicum (Bell Pepper),Vegetable
+Kodagu (Madikeri),Cauliflower,Summer,Black clayey,8.4,0.93,23,26,51,Irrigated,Vermicompost + Neem cake,Organic,123,60,58,Cabbage; Chilli; Brinjal (Eggplant),Vegetable
+Bidar,Bitter Gourd,Summer,Black clayey,8.4,1.14,23,22,55,Irrigated,15-15-15 + Urea,Inorganic,60,49,55,Sunflower; Pumpkin; Ridge Gourd; Spinach,Vegetable
+Kalaburagi,Bitter Gourd,Rabi,Alluvial (coastal),7.3,1.07,49,33,18,Irrigated,FYM + Urea (split) + MOP,Mixed,58,53,52,Sunflower; Pumpkin; Ridge Gourd; Spinach,Vegetable
+Mandya,Papaya,Rabi,Sandy loam,6.2,1.04,64,16,20,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,159,51,156,Amla (Indian Gooseberry); Onion; Potato; Guava,Fruit
+Vijayapura,Green Peas,Kharif,Red loam,6.0,0.92,53,36,11,Irrigated,15-15-15 + Urea,Inorganic,23,58,31,French Beans; Soybean; Chickpea (Bengal gram),Vegetable
+Shivamogga,Jackfruit,Rabi,Sandy loam,6.0,1.1,61,28,11,Irrigated,FYM + Urea (split) + MOP,Mixed,181,109,198,Banana; Sapota (Chikoo); Pomegranate; Potato,Fruit
+Dakshina Kannada (Puttur),Brinjal (Eggplant),Summer,Sandy loam,7.1,0.44,46,37,17,Irrigated,FYM (Farmyard Manure),Organic,115,58,59,Cauliflower; Cabbage; Chilli,Vegetable
+Shivamogga,Carrot,Summer,Alluvial (coastal),6.6,0.78,35,42,23,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,83,55,59,Cucumber; Beetroot; Muskmelon; Watermelon,Vegetable
+Kodagu (Madikeri),Amla (Indian Gooseberry),Kharif,Lateritic,6.3,0.57,49,29,22,Rainfed,FYM (Farmyard Manure),Organic,150,48,161,Papaya; Onion; Potato,Fruit
+Vijayapura,Brinjal (Eggplant),Kharif,Black clayey,8.2,1.02,13,41,46,Irrigated,Vermicompost + Neem cake,Organic,125,65,63,Cauliflower; Cabbage; Chilli; Rice (Paddy),Vegetable
+Uttara Kannada (Karwar),Cabbage,Summer,Red sandy loam,6.2,1.14,55,25,20,Rainfed,Vermicompost + Neem cake,Organic,119,63,54,Cauliflower; Chilli; Brinjal (Eggplant); Rice (Paddy),Vegetable
+Udupi,Carrot,Rabi,Red loam,5.6,1.11,67,21,12,Irrigated,FYM (Farmyard Manure),Organic,83,62,64,Cucumber; Beetroot; Muskmelon,Vegetable
+Mangaluru,Jackfruit,Kharif,Sandy loam,5.5,1.04,48,34,18,Irrigated,FYM (Farmyard Manure),Organic,210,94,204,Banana; Sapota (Chikoo); Pomegranate; Potato,Fruit
+Uttara Kannada (Karwar),Coriander,Kharif,Black clayey,7.0,0.49,15,39,46,Irrigated,15-15-15 + Urea,Inorganic,58,31,32,Ragi (Finger Millet); Bottle Gourd; Pearl Millet (Bajra); Ridge Gourd,Vegetable
+Hassan,Papaya,Kharif,Red loam,6.8,0.57,58,21,21,Irrigated,15-15-15 + Urea,Inorganic,157,47,151,Amla (Indian Gooseberry); Onion; Potato; Guava,Fruit
+Dakshina Kannada (Puttur),Pumpkin,Kharif,Lateritic,7.1,0.8,40,50,10,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,63,40,42,Bottle Gourd; Ridge Gourd; Spinach; Bitter Gourd,Vegetable
+Haveri,Amla (Indian Gooseberry),Rabi,Sandy loam,5.8,0.52,60,30,10,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,147,49,144,Papaya; Onion; Potato; Guava,Fruit
+Shivamogga,Cucumber,Kharif,Lateritic,6.5,0.48,42,41,17,Irrigated,FYM (Farmyard Manure),Organic,87,57,64,Carrot; Beetroot; Watermelon; Muskmelon,Vegetable
+Vijayapura,Papaya,Kharif,Alluvial (coastal),6.5,1.01,53,32,15,Irrigated,FYM + Urea (split) + MOP,Mixed,146,48,153,Amla (Indian Gooseberry); Onion; Potato,Fruit
+Uttara Kannada (Karwar),Guava,Rabi,Red sandy loam,6.2,0.65,52,29,19,Irrigated,Vermicompost + Neem cake,Organic,158,106,102,Tomato (Hybrid High-Demand); Capsicum (Bell Pepper); Tomato,Fruit
+Ramanagara,Sapota (Chikoo),Kharif,Lateritic,7.0,0.51,41,37,22,Irrigated,FYM + Urea (split) + MOP,Mixed,266,98,185,Banana; Jackfruit; Pomegranate,Fruit
+Ballari,Beetroot,Rabi,Sandy loam,6.3,1.11,57,23,20,Irrigated,15-15-15 + Urea,Inorganic,93,57,64,Cucumber; Carrot; Watermelon; Muskmelon,Vegetable
+Udupi,Sapota (Chikoo),Rabi,Red loam,5.6,0.69,53,36,11,Irrigated,FYM (Farmyard Manure),Organic,245,109,206,Banana; Jackfruit; Pomegranate; Sugarcane,Fruit
+Bengaluru,Grapes,Rabi,Red sandy loam,5.5,0.43,54,30,16,Irrigated,12-32-16 + Urea + MOP,Inorganic,432,191,403,Mango; Pomegranate; Sapota (Chikoo); Banana,Fruit
+Mysuru,Pumpkin,Rabi,Alluvial (coastal),6.2,1.12,49,37,14,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,60,39,43,Bottle Gourd; Ridge Gourd; Spinach; Bitter Gourd,Vegetable
+Davanagere,Cabbage,Kharif,Black clayey,7.2,0.9,23,35,42,Irrigated,FYM + Urea (split) + MOP,Mixed,131,65,57,Cauliflower; Chilli; Brinjal (Eggplant); Rice (Paddy),Vegetable
+Hubballi-Dharwad,Amla (Indian Gooseberry),Summer,Alluvial (coastal),6.7,0.98,54,24,22,Rainfed,Vermicompost + DAP (basal) + Urea (topdress),Mixed,163,53,146,Papaya; Onion; Potato,Fruit
+Hubballi-Dharwad,Banana,Kharif,Lateritic,6.1,0.46,53,31,16,Irrigated,12-32-16 + Urea + MOP,Inorganic,212,94,187,Jackfruit; Sapota (Chikoo); Pomegranate; Potato,Fruit
+Uttara Kannada (Karwar),Banana,Kharif,Red loam,6.1,0.92,53,30,17,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,213,105,193,Jackfruit; Sapota (Chikoo); Pomegranate; Potato,Fruit
+Kodagu (Madikeri),Capsicum (Bell Pepper),Kharif,Sandy loam,6.1,0.96,58,21,21,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,157,74,70,Tomato; Brinjal (Eggplant); Cauliflower; Cabbage,Vegetable
+Kalaburagi,Sapota (Chikoo),Kharif,Black clayey,8.2,1.05,21,25,54,Rainfed,15-15-15 + Urea,Inorganic,244,96,197,Banana; Jackfruit; Pomegranate; Sugarcane,Fruit
+Koppal,Coriander,Kharif,Red sandy loam,6.8,0.99,68,21,11,Irrigated,Vermicompost + Neem cake,Organic,56,28,29,Ragi (Finger Millet); Bottle Gourd; Pearl Millet (Bajra),Vegetable
+Chikkamagaluru,Ridge Gourd,Kharif,Red sandy loam,6.8,0.56,47,36,17,Irrigated,FYM + Urea (split) + MOP,Mixed,57,38,44,Bottle Gourd; Pumpkin; Spinach,Vegetable
+Kolar,Pumpkin,Rabi,Red loam,6.1,0.58,50,37,13,Irrigated,FYM (Farmyard Manure),Organic,61,38,40,Bottle Gourd; Ridge Gourd; Spinach,Vegetable
+Kalaburagi,Grapes,Kharif,Lateritic,6.3,0.97,53,36,11,Irrigated,Vermicompost + Neem cake,Organic,404,200,414,Mango; Pomegranate; Sapota (Chikoo),Fruit
+Mandya,Cauliflower,Summer,Lateritic,6.9,0.6,43,39,18,Irrigated,FYM + Urea (split) + MOP,Mixed,118,56,58,Cabbage; Chilli; Brinjal (Eggplant); Rice (Paddy),Vegetable
+Gadag,Cabbage,Kharif,Alluvial (coastal),7.2,0.71,42,38,20,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,122,64,57,Cauliflower; Chilli; Brinjal (Eggplant); Rice (Paddy),Vegetable
+Haveri,Papaya,Kharif,Red loam,5.7,0.94,69,21,10,Irrigated,15-15-15 + Urea,Inorganic,160,51,150,Amla (Indian Gooseberry); Onion; Potato,Fruit
+Ramanagara,Carrot,Summer,Red loam,6.8,1.19,59,30,11,Rainfed,Vermicompost + DAP (basal) + Urea (topdress),Mixed,74,62,59,Cucumber; Beetroot; Muskmelon; Watermelon,Vegetable
+Dakshina Kannada (Puttur),Jackfruit,Summer,Red loam,5.9,0.66,56,27,17,Irrigated,FYM (Farmyard Manure),Organic,190,98,199,Banana; Sapota (Chikoo); Pomegranate,Fruit
+Mysuru,Pomegranate,Rabi,Alluvial (coastal),7.3,0.82,38,39,23,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,229,152,220,Sapota (Chikoo); Banana; Jackfruit; Sugarcane,Fruit
+Davanagere,Grapes,Rabi,Sandy loam,6.5,0.83,57,23,20,Irrigated,FYM (Farmyard Manure),Organic,386,193,439,Mango; Pomegranate; Sapota (Chikoo); Banana,Fruit
+Gadag,Muskmelon,Summer,Lateritic,6.1,0.73,49,27,24,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,109,47,45,Cotton; Watermelon; Sorghum (Jowar); Beetroot,Fruit
+Belagavi,Guava,Kharif,Red sandy loam,5.7,0.55,67,20,13,Rainfed,Vermicompost + Neem cake,Organic,139,95,95,Tomato (Hybrid High-Demand); Capsicum (Bell Pepper); Tomato; Potato,Fruit
+Hubballi-Dharwad,Banana,Kharif,Red loam,6.9,1.02,66,11,23,Irrigated,Vermicompost + Neem cake,Organic,196,98,182,Jackfruit; Sapota (Chikoo); Pomegranate,Fruit
+Chikkaballapura,Guava,Rabi,Red loam,5.5,0.77,61,16,23,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,156,98,103,Tomato (Hybrid High-Demand); Capsicum (Bell Pepper); Tomato,Fruit
+Raichur,Grapes,Rabi,Lateritic,5.5,0.58,49,38,13,Irrigated,FYM + Urea (split) + MOP,Mixed,372,212,364,Mango; Pomegranate; Sapota (Chikoo); Banana,Fruit
+Mysuru,Mango,Rabi,Alluvial (coastal),6.4,0.69,37,42,21,Rainfed,15-15-15 + Urea,Inorganic,234,46,261,Sapota (Chikoo); Jackfruit; Banana; Pomegranate,Fruit
+Davanagere,Amla (Indian Gooseberry),Kharif,Black clayey,8.4,0.56,12,31,57,Irrigated,Vermicompost + DAP (basal) + Urea (topdress),Mixed,153,50,148,Papaya; Onion; Potato; Guava,Fruit
+Mandya,Cabbage,Kharif,Alluvial (coastal),7.5,0.99,49,41,10,Irrigated,FYM + Urea (split) + MOP,Mixed,114,58,59,Cauliflower; Chilli; Brinjal (Eggplant); Rice (Paddy),Vegetable
+Mysuru,Pumpkin,Kharif,Black clayey,7.9,0.55,22,26,52,Irrigated,12-32-16 + Urea + MOP,Inorganic,59,43,42,Bottle Gourd; Ridge Gourd; Spinach; Bitter Gourd,Vegetable
+Haveri,Cucumber,Summer,Alluvial (coastal),7.0,1.03,39,38,23,Irrigated,15-15-15 + Urea,Inorganic,72,65,66,Carrot; Beetroot; Watermelon,Vegetable
+Koppal,Pumpkin,Summer,Red sandy loam,6.4,0.96,66,20,14,Irrigated,FYM (Farmyard Manure),Organic,55,42,42,Bottle Gourd; Ridge Gourd; Spinach,Vegetable
+Udupi,Papaya,Kharif,Lateritic,6.9,1.03,35,53,12,Irrigated,12-32-16 + Urea + MOP,Inorganic,141,54,163,Amla (Indian Gooseberry); Onion; Potato,Fruit
+Shivamogga,Amla (Indian Gooseberry),Rabi,Red loam,5.7,0.87,60,23,17,Irrigated,FYM + Urea (split) + MOP,Mixed,159,52,157,Papaya; Onion; Potato; Guava,Fruit
+Bengaluru,Carrot,Summer,Red sandy loam,6.6,0.65,55,31,14,Irrigated,12-32-16 + Urea + MOP,Inorganic,73,63,63,Cucumber; Beetroot; Muskmelon,Vegetable
+Mandya,Muskmelon,Kharif,Sandy loam,7.1,0.47,50,27,23,Irrigated,12-32-16 + Urea + MOP,Inorganic,96,54,46,Cotton; Watermelon; Sorghum (Jowar); Beetroot,Fruit
+Bengaluru,Ridge Gourd,Kharif,Black clayey,8.4,0.66,24,35,41,Irrigated,Vermicompost + Neem cake,Organic,61,38,38,Bottle Gourd; Pumpkin; Spinach,Vegetable
+Vijayapura,Sapota (Chikoo),Kharif,Lateritic,6.6,0.47,44,35,21,Irrigated,Vermicompost + Neem cake,Organic,245,99,215,Banana; Jackfruit; Pomegranate,Fruit
+Gadag,Green Peas,Summer,Sandy loam,5.7,0.8,60,27,13,Rainfed,Vermicompost + Neem cake,Organic,24,58,33,French Beans; Soybean; Chickpea (Bengal gram),Vegetable
+Kalaburagi,Carrot,Kharif,Red sandy loam,6.0,0.76,67,17,16,Irrigated,FYM (Farmyard Manure),Organic,73,62,57,Cucumber; Beetroot; Muskmelon; Watermelon,Vegetable
+Chikkaballapura,Amla (Indian Gooseberry),Summer,Red sandy loam,6.2,0.98,53,27,20,Irrigated,12-32-16 + Urea + MOP,Inorganic,141,49,161,Papaya; Onion; Potato,Fruit
+Ballari,Bitter Gourd,Kharif,Sandy loam,5.9,1.11,55,29,16,Rainfed,Vermicompost + DAP (basal) + Urea (topdress),Mixed,64,50,53,Sunflower; Pumpkin; Ridge Gourd,Vegetable
+Mysuru,Guava,Rabi,Lateritic,5.8,1.07,52,34,14,Irrigated,FYM + Urea (split) + MOP,Mixed,140,106,90,Tomato (Hybrid High-Demand); Capsicum (Bell Pepper); Tomato; Potato,Fruit
+Kodagu (Madikeri),Ridge Gourd,Summer,Lateritic,5.8,0.59,53,32,15,Rainfed,12-32-16 + Urea + MOP,Inorganic,56,38,43,Bottle Gourd; Pumpkin; Spinach,Vegetable
+Koppal,Amla (Indian Gooseberry),Summer,Alluvial (coastal),6.9,0.7,49,30,21,Irrigated,FYM (Farmyard Manure),Organic,149,49,145,Papaya; Onion; Potato; Guava,Fruit
+Ballari,Jackfruit,Summer,Alluvial (coastal),7.7,0.68,39,41,20,Irrigated,12-32-16 + Urea + MOP,Inorganic,195,106,182,Banana; Sapota (Chikoo); Pomegranate; Potato,Fruit
+Udupi,Capsicum (Bell Pepper),Rabi,Alluvial (coastal),6.6,0.53,42,43,15,Irrigated,FYM (Farmyard Manure),Organic,137,71,69,Tomato; Brinjal (Eggplant); Cauliflower; Cabbage,Vegetable
+Bengaluru,Tomato (Hybrid High-Demand),Rabi,Red sandy loam,6.2,0.74,46,40,14,Irrigated,12-32-16 + Urea + MOP,Inorganic,166,96,91,Guava; Potato; Tomato,Vegetable
+Ballari,Beetroot,Summer,Red loam,6.3,0.53,58,32,10,Irrigated,Vermicompost + Neem cake,Organic,90,62,60,Cucumber; Carrot; Watermelon,Vegetable
+Ramanagara,Cabbage,Kharif,Red loam,5.8,0.98,59,23,18,Irrigated,12-32-16 + Urea + MOP,Inorganic,116,54,57,Cauliflower; Chilli; Brinjal (Eggplant); Rice (Paddy),Vegetable
+Mangaluru,Capsicum (Bell Pepper),Kharif,Red sandy loam,7.1,0.52,68,16,16,Irrigated,15-15-15 + Urea,Inorganic,163,68,76,Tomato; Brinjal (Eggplant); Cauliflower,Vegetable
+Mangaluru,Guava,Kharif,Alluvial (coastal),7.1,0.9,51,30,19,Rainfed,12-32-16 + Urea + MOP,Inorganic,149,92,103,Tomato (Hybrid High-Demand); Capsicum (Bell Pepper); Tomato; Potato,Fruit
+Bagalkote,Jackfruit,Kharif,Sandy loam,6.1,1.03,65,12,23,Irrigated,FYM + Urea (split) + MOP,Mixed,208,107,192,Banana; Sapota (Chikoo); Pomegranate,Fruit
+Belagavi,Carrot,Rabi,Alluvial (coastal),7.4,0.82,40,44,16,Irrigated,FYM + Urea (split) + MOP,Mixed,86,59,61,Cucumber; Beetroot; Muskmelon,Vegetable
+Ballari,Jackfruit,Kharif,Lateritic,6.3,0.48,53,27,20,Irrigated,FYM + Urea (split) + MOP,Mixed,206,93,201,Banana; Sapota (Chikoo); Pomegranate,Fruit
+Bidar,Green Peas,Rabi,Red sandy loam,6.2,0.89,66,20,14,Irrigated,15-15-15 + Urea,Inorganic,27,64,31,French Beans; Soybean; Chickpea (Bengal gram),Vegetable
+Chikkamagaluru,Amla (Indian Gooseberry),Rabi,Lateritic,5.7,0.82,48,42,10,Irrigated,15-15-15 + Urea,Inorganic,155,54,160,Papaya; Onion; Potato; Guava,Fruit
+Mandya,Bitter Gourd,Kharif,Red sandy loam,5.9,1.2,59,20,21,Rainfed,15-15-15 + Urea,Inorganic,58,47,52,Sunflower; Pumpkin; Ridge Gourd; Spinach,Vegetable
+Gadag,French Beans,Rabi,Black clayey,7.3,1.18,22,35,43,Rainfed,FYM + Urea (split) + MOP,Mixed,29,59,32,Green Peas; Soybean; Chickpea (Bengal gram); Groundnut,Vegetable
+Kalaburagi,Papaya,Kharif,Black clayey,7.5,0.86,10,45,45,Irrigated,FYM (Farmyard Manure),Organic,144,47,154,Amla (Indian Gooseberry); Onion; Potato; Guava,Fruit
+Davanagere,Sapota (Chikoo),Kharif,Alluvial (coastal),7.2,0.47,38,47,15,Irrigated,FYM + Urea (split) + MOP,Mixed,260,101,193,Banana; Jackfruit; Pomegranate; Sugarcane,Fruit
+Mangaluru,Spinach,Kharif,Black clayey,7.8,0.83,19,29,52,Rainfed,15-15-15 + Urea,Inorganic,49,37,43,Ridge Gourd; Bottle Gourd; Pumpkin; Coriander,Vegetable
+Davanagere,Pomegranate,Kharif,Lateritic,6.9,0.48,54,33,13,Irrigated,12-32-16 + Urea + MOP,Inorganic,256,151,197,Sapota (Chikoo); Banana; Jackfruit; Sugarcane,Fruit
+Koppal,Banana,Rabi,Alluvial (coastal),7.3,0.83,50,32,18,Irrigated,FYM + Urea (split) + MOP,Mixed,185,100,208,Jackfruit; Sapota (Chikoo); Pomegranate; Potato,Fruit
