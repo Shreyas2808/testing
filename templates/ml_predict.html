@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>ML Crop Type → Market-ranked Crops</h2>
+
+<p class="muted">Provide the 4 details below — the system will infer soil and nutrient values for the ML model.</p>
+
+<form method="POST" class="card">
+  <label>City</label>
+  <input type="text" name="city" placeholder="e.g., Mysuru" required>
+
+  <label>Soil Type</label>
+  <input type="text" name="soil_type" placeholder="e.g., Red loam" required>
+
+  <label>Season</label>
+  <input type="text" name="season" placeholder="Kharif / Rabi / Summer" required>
+
+  <label>Fertilizer Type</label>
+  <input type="text" name="fertilizer_type" placeholder="Inorganic / Organic / Mixed" required>
+
+  <button type="submit">Predict & Rank</button>
+</form>
+{% endblock %}

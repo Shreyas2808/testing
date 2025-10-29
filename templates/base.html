@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title or "Crop Recommender" }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  {# Allow pages to add extra tags in <head> (e.g., datalist styles, page-specific CSS) #}
+  {% block extra_head %}{% endblock %}
+</head>
+<body>
+  <nav class="nav">
+    <div class="brand">🌱 Crop Recommender</div>
+    <div class="spacer"></div>
+    {% if session.get('user_id') %}
+      <a href="{{ url_for('dashboard') }}">Dashboard</a>
+      <a href="{{ url_for('logout') }}">Logout</a>
+    {% else %}
+      <a href="{{ url_for('login') }}">Login</a>
+      <a href="{{ url_for('signup') }}">Sign up</a>
+    {% endif %}
+  </nav>
+
+  {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+      <div class="flash-container" id="flash-container">
+        {% for category, msg in messages %}
+          <div class="flash {{ category }}">{{ msg }}</div>
+        {% endfor %}
+      </div>
+    {% endif %}
+  {% endwith %}
+
+  <main class="container">
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="footer">Made with Flask + SQLite</footer>
+
+  {# Optional: small script to auto-hide flash messages #}
+  <script>
+    (function () {
+      const box = document.getElementById('flash-container');
+      if (!box) return;
+      setTimeout(() => { box.style.display = 'none'; }, 4000);
+    })();
+  </script>
+
+  {# Allow pages to inject page-specific JS at the end of <body> #}
+  {% block scripts %}{% endblock %}
+</body>
+</html>

@@ -1,0 +1,22 @@
+* { box-sizing: border-box; }
+body { font-family: system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif; margin:0; background:#f7f7f8; color:#111; }
+a { color: #0b5fff; text-decoration: none; }
+.container { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+.nav { display:flex; align-items:center; gap:1rem; padding: 0.75rem 1rem; background:#fff; border-bottom:1px solid #eee; position:sticky; top:0; }
+.brand { font-weight: 700; }
+.spacer { flex:1; }
+.footer { text-align:center; padding:2rem; color:#666; }
+.card { background:#fff; border:1px solid #eee; padding:1rem; border-radius:12px; box-shadow: 0 1px 2px rgba(0,0,0,0.04); }
+.grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; }
+label { display:block; margin:.5rem 0 .25rem; }
+input[type="text"], input[type="email"], input[type="password"] { width:100%; padding:.6rem .7rem; border:1px solid #ddd; border-radius:10px; }
+button { margin-top:.75rem; padding:.6rem .9rem; border-radius:10px; background:#111; color:#fff; border: none; cursor:pointer; }
+button:hover { opacity:.9; }
+.flash-container { max-width: 900px; margin: 1rem auto; padding: 0 1rem; }
+.flash { padding: .6rem .8rem; border-radius: 10px; margin-bottom:.5rem; }
+.flash.success { background:#e6ffed; color:#0a6d2a; border:1px solid #c9f5d3; }
+.flash.warning { background:#fff7e6; color:#7a4d00; border:1px solid #ffe3b0; }
+.flash.danger { background:#ffe9e9; color:#8c1c1c; border:1px solid #ffd0d0; }
+.muted { color:#666; font-size:.9rem; }
+.recent { list-style:none; padding-left:1rem; }
+.btn-link { display:inline-block; margin-top:.5rem; }

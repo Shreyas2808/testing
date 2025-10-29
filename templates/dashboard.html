@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Dashboard</h2>
+<div class="grid">
+  <div class="card">
+    <h3>Suggest similar crops (by crop)</h3>
+    <form method="post" action="{{ url_for('recommend_by_crop') }}">
+      <input type="text" name="crop" placeholder="e.g., rice, wheat, cotton" required>
+      <input type="text" name="fertilizer_for_crop" placeholder="Optional: same fertilizer (e.g., Urea, MOP)">
+      <button type="submit">Get suggestions</button>
+    </form>
+  </div>
+  <div class="card">
+    <h3>Suggest crops (by fertilizer)</h3>
+    <form method="post" action="{{ url_for('recommend_by_fertilizer') }}">
+      <input type="text" name="fertilizer" placeholder="e.g., Urea, MOP, DAP" required>
+      <button type="submit">Get suggestions</button>
+    </form>
+  </div>
+</div>
+<div class="card">
+  <h3>ML-based recommendation</h3>
+  <a href="{{ url_for('ml_recommend') }}" class="btn">Predict best crop type & rank by price</a>
+</div>
+
+
+{% if recent and recent|length %}
+  <h3>Recent queries</h3>
+  <ul class="recent">
+    {% for q in recent %}
+      <li>
+        <strong>{{ q.query_type|capitalize }}</strong> — "{{ q.input_text }}" 
+        <span class="muted">at {{ q.created_at.strftime("%Y-%m-%d %H:%M") }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Recommendations</h2>
+
+<div class="card">
+  <p><strong>{{ input_label }}:</strong> {{ input_value }}</p>
+  {% if used_imputed %}
+    <div class="card" style="margin-top: 12px;">
+      <h4>Model inputs (inferred)</h4>
+      <ul>
+        {% for k, v in used_imputed.items() %}
+          <li><strong>{{ k.replace('_',' ').title() }}:</strong> {{ v }}</li>
+        {% endfor %}
+      </ul>
+      {% if model_confidence %}
+        <p><strong>Model confidence:</strong> {{ (model_confidence * 100) | round(1) }}%</p>
+      {% endif %}
+    </div>
+  {% endif %}
+
+  {% if suggestions and suggestions.suggestions %}
+    <p>Top suggestions:</p>
+    <ul>
+      {% for item in suggestions.suggestions %}
+        <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+
+    <hr>
+    <form action="{{ url_for('rank_market') }}" method="post" class="form" style="margin-top: 12px;">
+      <label for="city"><strong>Farmer City</strong></label>
+      <input
+        type="text"
+        id="city"
+        name="city"
+        placeholder="Enter city (e.g., Bagalkote)"
+        required
+        class="form-control"
+        style="margin: 6px 0;"
+      >
+      <input type="hidden" name="top_suggestions" value="{{ suggestions.suggestions | join(',') }}">
+      <button type="submit" class="btn">Rank by Market Modal Price</button>
+    </form>
+  {% else %}
+    <p>No suggestions found. Try another input.</p>
+  {% endif %}
+
+  {% if ranked_by_price %}
+    <hr>
+    <h3>Ranked by Market Modal Price for {{ city }} (Highest First)</h3>
+    <table class="table table-bordered" style="width:100%; border-collapse: collapse;">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Requested Crop</th>
+          <th>Matched Crop (Dataset)</th>
+          <th>Year</th>
+          <th>Month</th>
+          <th>Min Price</th>
+          <th>Modal Price</th>
+          <th>Max Price</th>
+          <th>Note</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in ranked_by_price %}
+        <tr>
+          <td>{{ loop.index }}</td>
+          <td>{{ row.requested_crop }}</td>
+          <td>{{ row.matched_crop if row.matched_crop else '—' }}</td>
+          <td>{{ row.year if row.year else '—' }}</td>
+          <td>{{ row.month if row.month else '—' }}</td>
+          <td>{{ "%.2f"|format(row.min_price) if row.min_price is not none else '—' }}</td>
+          <td><strong>{{ "%.2f"|format(row.modal_price) if row.modal_price is not none else '—' }}</strong></td>
+          <td>{{ "%.2f"|format(row.max_price) if row.max_price is not none else '—' }}</td>
+          <td>{{ row.note if row.note else '' }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% endif %}
+
+  <a href="{{ url_for('dashboard') }}" class="btn-link">← Back to dashboard</a>
+</div>
+{% endblock %}

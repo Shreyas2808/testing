@@ -1,0 +1,30 @@
+{
+  "target": "Type",
+  "classes": [
+    "Cash crop",
+    "Cereal",
+    "Fruit",
+    "Oilseed",
+    "Pulse",
+    "Vegetable"
+  ],
+  "num_features": [
+    "soil_ph",
+    "organic_carbon_pct",
+    "sand_pct",
+    "silt_pct",
+    "clay_pct",
+    "N_req_kg_ha",
+    "P2O5_req_kg_ha",
+    "K2O_req_kg_ha"
+  ],
+  "cat_features": [
+    "soil_type",
+    "season",
+    "irrigation",
+    "fertilizer_type",
+    "city"
+  ],
+  "chosen_model": "xgboost",
+  "xgb_available": true
+}
