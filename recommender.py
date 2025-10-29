@@ -323,9 +323,86 @@ def suggest_by_crop_with_fertilizer(crop: str, fertilizer: str, k: int = 10) -> 
 
     return {"basis": "crop+fertilizer", "input": {"crop": crop, "fertilizer": fertilizer}, "suggestions": filtered[:k]}
 
+# add this import near the top of recommender.py (if not already present)
+from difflib import get_close_matches
+
+# Replace the old suggest_by_fertilizer with this improved version:
 def suggest_by_fertilizer(fertilizer: str, k: int = 10) -> Dict[str, Any]:
-    lst = crops_supported_by_fertilizer(fertilizer)
-    return {"basis": "fertilizer", "input": fertilizer, "suggestions": lst[:k]}
+    """
+    Robust fertilizer -> crop suggestion:
+    - Uses exact normalized key when available
+    - Tries substring matches (e.g. "urea" -> "urea + ssp + mop")
+    - Falls back to fuzzy close matches among fertilizer keys
+    - Final fallback: return global top crops
+    """
+    # defensive: if no input, return global top crops
+    if not fertilizer:
+        return {"basis": "fertilizer", "input": fertilizer, "suggestions": _global_top_crops[:k]}
+
+    key = normalize(fertilizer)
+
+    # 1) exact match (fast)
+    try:
+        if key in _fert_to_crops and _fert_to_crops[key]:
+            return {"basis": "fertilizer-exact", "input": fertilizer, "suggestions": _fert_to_crops[key][:k]}
+    except Exception:
+        # if mapping not built yet, fall back to crops_supported_by_fertilizer
+        pass
+
+    # 2) substring match against fertilizer keys (most useful for combined strings)
+    substring_matches = []
+    for fert_key in _fert_to_crops.keys():
+        if not fert_key:
+            continue
+        # if user typed a token contained in a key (e.g., "urea" in "urea + ssp + mop")
+        if key and key in fert_key:
+            substring_matches.append((_fert_to_crops[fert_key], fert_key))
+        # or if fertilizer key is contained in user input (user typed "urea+mop")
+        elif fert_key in key:
+            substring_matches.append((_fert_to_crops[fert_key], fert_key))
+
+    if substring_matches:
+        seen = set()
+        out = []
+        for crop_list, fert_key in substring_matches:
+            for c in crop_list:
+                if c not in seen:
+                    seen.add(c)
+                    out.append(c)
+                if len(out) >= k:
+                    break
+            if len(out) >= k:
+                break
+        return {"basis": "fertilizer-substr", "input": fertilizer, "suggestions": out[:k]}
+
+    # 3) fuzzy match the user's key against known fertilizer keys
+    keys = list(_fert_to_crops.keys())
+    close = get_close_matches(key, keys, n=3, cutoff=0.5)
+    if close:
+        seen = set()
+        out = []
+        for ck in close:
+            for c in _fert_to_crops.get(ck, []):
+                if c not in seen:
+                    seen.add(c)
+                    out.append(c)
+                if len(out) >= k:
+                    break
+            if len(out) >= k:
+                break
+        return {"basis": "fertilizer-fuzzy", "input": fertilizer, "suggestions": out[:k]}
+
+    # 4) last-resort: try the existing helper crops_supported_by_fertilizer (maybe it does something)
+    try:
+        lst = crops_supported_by_fertilizer(fertilizer)
+        if lst:
+            return {"basis": "fertilizer-helper-fallback", "input": fertilizer, "suggestions": lst[:k]}
+    except Exception:
+        pass
+
+    # 5) absolute fallback: global top crops
+    return {"basis": "fertilizer-fallback", "input": fertilizer, "suggestions": _global_top_crops[:k]}
+
 
 # Convenience: expose known crops/fertilizers for dropdowns/autocomplete if needed
 def known_crops() -> List[str]:
